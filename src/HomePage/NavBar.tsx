@@ -1,7 +1,24 @@
 import { Fragment } from "react/jsx-runtime";
 import "./NavBar.css";
+import { useEffect, useState } from "react";
 
 function NavBar() {
+  /* initiallizing state variables and functions using useState() */
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    function handleResize() {
+      setIsSmallScreen(window.innerWidth <= 1280);
+    }
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Check the screen size on initial load
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <Fragment>
       <nav className="navbar">
@@ -19,8 +36,14 @@ function NavBar() {
           </div>
 
           <div className="title-logo">
-            <div>Đoàn Gioan Tiền Hô</div>
-            <div>TNTT Huntington Beach</div>
+            {isSmallScreen ? (
+              <div>GTH TNTT</div>
+            ) : (
+              <>
+                <div>Đoàn Gioan Tiền Hô</div>
+                <div>TNTT Huntington Beach</div>
+              </>
+            )}
           </div>
         </a>
 
