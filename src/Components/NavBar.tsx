@@ -1,6 +1,7 @@
 import { Fragment } from "react/jsx-runtime";
-import "./NavBar.css";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import "./NavBar.css";
 
 function NavBar() {
   /* initiallizing state variables and functions using useState() */
@@ -49,16 +50,16 @@ function NavBar() {
 
         <ul className="menu">
           <li>
-            <a href="/">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <a href="/">ABOUT US</a>
+            <Link to="/about">ABOUT US</Link>
           </li>
           <li>
-            <a href="/">RESOURCES</a>
+            <Link to="/resources">RESOURCES</Link>
           </li>
           <li>
-            <a href="join.html">JOIN!</a>
+            <Link to="/join">JOIN!</Link>
           </li>
         </ul>
 

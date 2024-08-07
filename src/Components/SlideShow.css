@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.hero
+{
+    position: relative;
+    height: 100vh;  /* Full viewport height */
+    width: 100%;    /* Full width */
+    overflow: hidden;
+    display: flex;
+    align-items: center;  /* Center items vertically */
+    justify-content: center;  /* Center items horizontally */
+}
+
+.title h1
+{
+    color: black;
+    text-align: center;
+    z-index: 1;
+}
+
+@media (min-width: 475px)
+{
+    .hero h1
+    {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .hero h1
+    {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1024px)
+{   
+    .hero h1
+    {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1280px)
+{
+    .hero h1
+    {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1536px)
+{
+    .hero h1
+    {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 1920px)
+{
+    .hero h1
+    {
+        font-size: 8rem;
+    }
+}
