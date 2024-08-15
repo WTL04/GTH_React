@@ -1,0 +1,86 @@
+.card-center-wrapper
+{
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.card
+{
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 0 0.5em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+}
+
+/* Date Stuff */
+
+.card-hero
+{
+    flex: 0 0 25%;
+    position: relative;
+    background-color: #04041a;
+    border-radius: 25px;
+}
+
+.date-overlay
+{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Card Content */
+
+.card-content
+{
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+}
+
+.location img
+{
+    height: 1rem;
+    padding-right: 8px;
+}
+
+/* Extras */
+
+.button-wrapper
+{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.extra-button
+{
+    color: grey;
+    background-color: rgb(236, 236, 236);
+    border: 0px;
+}
+
+.extras
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.expandable
+{
+    background: rgb(236, 236, 236);
+    overflow: hidden;
+    line-height: 1.5;
+    padding: 0 2em;
+}
