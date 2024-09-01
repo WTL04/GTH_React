@@ -1,0 +1,114 @@
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-color: #17173d;
+
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.hero-banner img {
+  width: 80%;
+  filter: brightness(80%);
+}
+
+.about-paragraphs {
+    font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  padding: 50px;
+}
+
+.who-we-are {
+  width: 33%;
+  word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+  overflow-wrap: break-word; /* Ensures compatibility across different browsers */
+  padding: 20px;
+
+}
+
+.our-purpose {
+  width: 33%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 20px;
+
+}
+
+.our-mission {
+  width: 33%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 20px;
+}
+
+@media (width <= 670px) {
+  .about-paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    padding: 30px;
+
+    font-size: 0.8rem;
+  }
+
+  .who-we-are {
+    width: 80%;
+    word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+    overflow-wrap: break-word; /* Ensures compatibility across different browsers */
+    padding: 20px;
+  }
+
+  .our-purpose {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+
+  .our-mission {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+}
+
+@media (width <= 972px) {
+    .about-paragraphs {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+  
+      padding: 50px;
+    }
+  
+    .who-we-are {
+      width: 80%;
+      word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+      overflow-wrap: break-word; /* Ensures compatibility across different browsers */
+      padding: 20px;
+    }
+  
+    .our-purpose {
+      width: 80%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      padding: 20px;
+    }
+  
+    .our-mission {
+      width: 80%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      padding: 20px;    
+    }
+  }
+  
