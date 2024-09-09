@@ -1,3 +1,9 @@
+*
+{
+  font-family: 'Raleway', sans-serif;
+}
+
+
 .hero-banner {
   display: flex;
   flex-direction: column;
@@ -15,7 +21,6 @@
 }
 
 .about-paragraphs {
-    font-family: 'Raleway', sans-serif;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -28,7 +33,6 @@
   word-wrap: break-word; /* Allows long words to break and wrap to the next line */
   overflow-wrap: break-word; /* Ensures compatibility across different browsers */
   padding: 20px;
-
 }
 
 .our-purpose {
@@ -36,7 +40,6 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
   padding: 20px;
-
 }
 
 .our-mission {
@@ -44,6 +47,24 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
   padding: 20px;
+}
+
+.leader-cards
+{
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.header h1
+{
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 @media (width <= 670px) {
@@ -81,34 +102,33 @@
 }
 
 @media (width <= 972px) {
-    .about-paragraphs {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      align-items: center;
-  
-      padding: 50px;
-    }
-  
-    .who-we-are {
-      width: 80%;
-      word-wrap: break-word; /* Allows long words to break and wrap to the next line */
-      overflow-wrap: break-word; /* Ensures compatibility across different browsers */
-      padding: 20px;
-    }
-  
-    .our-purpose {
-      width: 80%;
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      padding: 20px;
-    }
-  
-    .our-mission {
-      width: 80%;
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      padding: 20px;    
-    }
+  .about-paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    padding: 50px;
   }
-  
+
+  .who-we-are {
+    width: 80%;
+    word-wrap: break-word; /* Allows long words to break and wrap to the next line */
+    overflow-wrap: break-word; /* Ensures compatibility across different browsers */
+    padding: 20px;
+  }
+
+  .our-purpose {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+
+  .our-mission {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+}
