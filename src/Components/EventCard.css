@@ -80,7 +80,8 @@
 .expandable
 {
     background: rgb(236, 236, 236);
+    text-align: left;
     overflow: hidden;
     line-height: 1.5;
-    padding: 0 2em;
+    padding-top: 2rem;
 }

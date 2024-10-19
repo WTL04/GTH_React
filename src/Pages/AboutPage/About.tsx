@@ -46,49 +46,49 @@ function About() {
       {/*board*/}
       <section className="leader-cards">
         <LeaderCard
-          image="public/images/headshots/veronica.jpeg"
+          image="/images/headshots/veronica.jpeg"
           rank="Đoàn Trưởng | President"
           name="Maria Ninh Nhi Veronica"
         />
 
         <LeaderCard
-          image="public/images/headshots/joseph.jpeg"
+          image="/images/headshots/joseph.jpeg"
           rank="Đoàn Phó Quản Trị | Vice President"
           name="Gisue Huynh Tan Joseph"
         />
 
         <LeaderCard
-          image="public/images/headshots/kd.jpeg"
+          image="/images/headshots/kd.jpeg"
           rank="Đoàn Phó Nghiên Huấn | "
           name="Francis Xavier Kevin Anh Duong"
         />
 
         <LeaderCard
-          image="public/images/headshots/ben.jpeg"
+          image="/images/headshots/ben.jpeg"
           rank="Thư Ký/Ngành Trưởng Ấu Nhi"
           name="John The Baptist Ngueyn Xuan Benjamin"
         />
 
         <LeaderCard
-          image="public/images/headshots/marilyn.jpeg"
+          image="/images/headshots/marilyn.jpeg"
           rank="Thủ Quỹ | Treasurer"
           name="Thérèse of Lisieux Phan Marilyn"
         />
 
         <LeaderCard
-          image="public/images/headshots/dylan.jpeg"
+          image="/images/headshots/dylan.jpeg"
           rank="Ngành Trưởng Hiệp Sĩ"
           name="Joseph Nguyen Hoang Dylan"
         />
 
         <LeaderCard
-          image="public/images/headshots/john.jpeg"
+          image="/images/headshots/john.jpeg"
           rank="Ngành Trưởng Nghĩa Sĩ"
           name="Michael the Archangel Ross Robert John"
         />
 
         <LeaderCard
-          image="public/images/headshots/austin.jpeg"
+          image="/images/headshots/austin.jpeg"
           rank="Ngành Trưởng Thiếu Nhi"
           name="Michael Ninh Tuong Austin"
         />
@@ -96,129 +96,129 @@ function About() {
         {/*fulltimers*/}
 
         <LeaderCard
-          image="public/images/headshots/christina.jpeg"
+          image="/images/headshots/christina.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Anne Pham Hong Vu Christina"
         />
 
         <LeaderCard
-          image="public/images/headshots/will.jpeg"
+          image="/images/headshots/will.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Paul William Thịnh Luu"
         />
 
         <LeaderCard
-          image="public/images/headshots/trin.jpeg"
+          image="/images/headshots/trin.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Anne Tran Hien Trinity"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Augustine Nguyen Thien Nathan"
         />
 
         {/*partimers*/}
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Rita of Cascia Tran Thien-an Theresa"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="John Tran Petter"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="John The Baptist Nguyen Vu Nathan"
         />
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Peter & Paul Tran Christopher"
         />
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Vincent de Paul Nguyen Bryan"
         />
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Tôma Thiện Trần Hùng Jacob"
         />
         <LeaderCard
-          image="public/images/headshots/bdo.jpeg"
+          image="/images/headshots/bdo.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Joseph Do Toan Brian"
         />
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Mark Tran Huy Timothy"
         />
         <LeaderCard
-          image="public/images/headshots/kaitlyn.jpeg"
+          image="/images/headshots/kaitlyn.jpeg"
           rank="Huynh Trưởng | Youth Leader"
           name="Thérèse of Lisieux Nguyen Kaitlyn"
         />
 
         {/*hstt*/}
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Joseph Nguyen Hoang Franklin"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Thérèse of Lisieux Nguyen Mytam Audrey"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Anna Ngueyn Tuyet Brianna"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Jospeh Tran Mighty"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Anna Tran Hoa Quynh Finity"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Hubertus Vu Hieu Kevin"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Cecelia Dang Vu Ailyn"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Henry Đỗ Thiên-Ân"
         />
 
         <LeaderCard
-          image="public/images/headshots/.jpeg"
+          image="/images/headshots/.jpeg"
           rank="Hiệp Sĩ Trưởng Thành | Leader in Training"
           name="Paul Lai Sean"
         />
