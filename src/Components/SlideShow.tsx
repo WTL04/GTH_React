@@ -1,5 +1,4 @@
 import "./SlideShow.css";
-import { Fragment } from "react/jsx-runtime";
 import { useEffect, useState } from "react";
 
 interface Props {
@@ -39,7 +38,7 @@ function SlideShow({ images }: Props) {
   }, [images.length]);
 
   return (
-    <Fragment>
+    <>
       <div className="hero container">
         <div className="title">
           <h1>Đoàn Gioan Tiền Hô</h1>
@@ -60,7 +59,7 @@ function SlideShow({ images }: Props) {
           />
         </div>
       </div>
-    </Fragment>
+    </>
   );
 }
 

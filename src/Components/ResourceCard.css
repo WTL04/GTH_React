@@ -1,0 +1,60 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.resource-card-wrapper {
+    display: flex;
+    padding: 20px;
+    /* border: 2px solid blue; */
+}
+
+.resource-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.2em;
+    max-width: 80vh;
+    width: 80vh;
+    height: 30vh;
+}
+
+.resource-card img {
+    height: 20vh;
+    padding: 0 10% 0 10%; /* top, right, bottom, left */
+    /* border: 2px solid green; */
+}
+
+.resource-card h1 {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+
+    flex: 1;
+}
+
+@media (width <= 700px)
+{
+    .resource-card {
+        width: 50vh;
+    }
+
+    .resource-card img {
+        height: 10vh;
+    }
+}
+
+@media (width <= 455px)
+{
+    .resource-card {
+        width: 40vh;
+    }
+
+    .resource-card img {
+        height: 10vh;
+    }
+
+    .resource-card h1 {
+        font-size: 1rem;
+    }
+}

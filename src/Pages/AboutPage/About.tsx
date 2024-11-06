@@ -119,7 +119,7 @@ function About() {
           name="Augustine Nguyen Thien Nathan"
         />
 
-        {/*partimers*/}
+        {/*part timers*/}
         <LeaderCard
           image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
@@ -129,7 +129,7 @@ function About() {
         <LeaderCard
           image="/images/headshots/.jpeg"
           rank="Huynh Trưởng | Youth Leader"
-          name="John Tran Petter"
+          name="John Tran Peter"
         />
 
         <LeaderCard

@@ -1,5 +1,3 @@
-import { Fragment } from "react/jsx-runtime";
-
 import "./LeaderCard.css";
 
 interface Props {
@@ -10,7 +8,7 @@ interface Props {
 
 function LeaderCard({ image, rank, name }: Props) {
   return (
-    <Fragment>
+    <>
       <div className="leader-card-center-wrapper">
         <div className="leader-card">
           <img src={image} alt="img" />
@@ -18,7 +16,7 @@ function LeaderCard({ image, rank, name }: Props) {
           <p>{name}</p>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 }
 

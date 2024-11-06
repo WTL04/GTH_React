@@ -5,6 +5,8 @@ import EventCard from "../../Components/EventCard";
 import BottomBar from "../../Components/BottomBar";
 import { Fragment } from "react/jsx-runtime";
 
+import "./Home.css"
+
 function Home() {
   const images = [
     "/images/img0.jpg",
