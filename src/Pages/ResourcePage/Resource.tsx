@@ -20,10 +20,10 @@ function Resource() {
       </section>
 
       <section className="resource-cards">
-        <ResourceCard image="/images/dove.png" title="Prayers and Songs" />
-        <ResourceCard image="/images/htkhanh.jpg" title="New Parish Adult Registration"/>
-        <ResourceCard image="/images/veymlogo.png" title="Thieu Nhi Songs" />
-        <ResourceCard image="/images/veymlogo.png" title="Event Permission Slips"/>
+        <ResourceCard link = "" image="/images/dove.png" title="Prayers and Songs" />
+        <ResourceCard link = "" image="/images/htkhanh.jpg" title="New Parish Adult Registration"/>
+        <ResourceCard link = "" image="/images/veymlogo.png" title="Thieu Nhi Songs" />
+        <ResourceCard link = "" image="/images/veymlogo.png" title="Event Permission Slips"/>
       </section>
 
       <div className="bottombar">
