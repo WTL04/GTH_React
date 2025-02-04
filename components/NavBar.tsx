@@ -2,7 +2,17 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // Import usePathname
 import { useEffect, useState } from "react";
-import "./NavBar.css"; // Make sure this is placed correctly
+import "./NavBar.css";
+
+//import font awesome icons
+import {
+  faInstagram,
+  faYoutube,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function NavBar() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -25,7 +35,7 @@ export default function NavBar() {
     <nav className="navbar">
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-bars"></i>
+        <FontAwesomeIcon icon={faBars} />{" "}
       </label>
 
       <Link href="/" className="main-logo">
@@ -80,17 +90,17 @@ export default function NavBar() {
       <ul className="social-media">
         <li>
           <a href="https://www.instagram.com/tnttgth/">
-            <i className="fa-brands fa-instagram"></i>
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/GioanTienHoTNTT?mibextid=LQQJ4d">
-            <i className="fab fa-facebook"></i>
+            <FontAwesomeIcon icon={faFacebook} size="lg" />
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com/@hbtnttyt">
-            <i className="fab fa-youtube"></i>
+            <FontAwesomeIcon icon={faYoutube} size="lg" />
           </a>
         </li>
       </ul>
