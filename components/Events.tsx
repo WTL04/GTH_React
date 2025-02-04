@@ -7,10 +7,9 @@ export default function Events() {
   useEffect(() => {
     async function fetchEvents() {
       // geting data from google sheet through API key
-      const apiKey = "AIzaSyCzc_59NjfvKWV3lmc2Y-qyidduRJE9n3Q"; // Replace with your API key
-      const sheetId = "1q0REcdn6_wIMYuiHjCR_-CPXI7KBxQNj2_A6JqlXH2g"; // Replace with your sheet ID
-      const range = "Sheet1!A2:C"; // Adjust based on your sheet structure
-
+      const apiKey = "AIzaSyCzc_59NjfvKWV3lmc2Y-qyidduRJE9n3Q";
+      const sheetId = "1q0REcdn6_wIMYuiHjCR_-CPXI7KBxQNj2_A6JqlXH2g";
+      const range = "Future Events!B2:D"; //referencing future events
       const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
 
       const response = await fetch(url);
@@ -30,25 +29,36 @@ export default function Events() {
   }, []);
 
   return (
-    <div>
-      <h1>Upcoming Events</h1>
-      <div className="flex flex-col border-2 border-indigo-600">
+    <div className="bg-gray-100 pt-8">
+      <h1 className="flex items-center justify-center text-5xl ">
+        Upcoming Events
+      </h1>
+
+      {/* ADD ANIMATIONS */}
+      <div className="flex flex-col space-y-6">
         {events.length === 0 ? (
           <p>Loading events...</p>
         ) : (
           <ul className="flex flex-col">
             {events.map((event, index) => (
-              <li className="border-2 border-indigo-600" key={index}>
-                <h3>{event.eventName}</h3>
-                <p>
-                  <strong>Date:</strong> {event.date}
-                </p>
-                <p>
-                  {" "}
-                  <strong>Event:</strong>
-                  {event.description}
-                </p>
-                <br /> {/* line break each item */}
+              <li className="p-10 flex items-center justify-center" key={index}>
+                {/*event.eventName, event.date, event.description*/}
+                {/* creating an event card for all events */}
+                <div className="w-3/5 bg-white shadow-lg rounded-lg p-4 mb-4 flex">
+                  <div className="bg-indigo-950 w-32 h-32 object-cover rounded-lg mr-4 flex items-center justify-center">
+                    <h3 className="text-3xl text-white text-center font-semibold">
+                      {event.date}
+                    </h3>
+                  </div>
+                  <div>
+                    <div className="flex items-center mb-2">
+                      <h2 className="text-xl font-semibold text-red">
+                        {event.eventName}
+                      </h2>
+                    </div>
+                    <p className="text-2xl">{event.description}</p>
+                  </div>
+                </div>
               </li>
             ))}
           </ul>
