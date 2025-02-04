@@ -1,0 +1,156 @@
+* /*set default values*/ {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Raleway", sans-serif;
+  background-color: #04041a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 3;
+}
+
+/*left section*/
+.main-logo {
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+
+.img-logo img {
+  height: 70px;
+  margin-left: 50px;
+}
+
+.title-logo {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0px 30px;
+}
+
+/*right section*/
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  padding: 19px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+li a:hover {
+  background-color: rgb(31, 5, 102);
+  transition: 0.5s;
+}
+
+.ig-logo img,
+.fb-logo img,
+.yt-logo img {
+  height: 17px;
+}
+
+#check {
+  display: none;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none; /* Initially hidden */
+}
+
+/* FOR HAMBURGER ICON */
+@media (width <= 1280px) {
+  /* NAVIGATION BAR */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-logo {
+    margin-top: 10px;
+  }
+
+  .checkbtn {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 85px;
+    right: -100%;
+    background-color: #0a0a3d;
+    transition: right 0.3s ease-in-out;
+
+    padding-top: 50px;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 20px 0;
+  }
+
+  .menu li a {
+    padding: 20px 60px;
+    border-radius: 3px;
+  }
+
+  .menu li a:hover {
+    background-color: rgb(31, 5, 102);
+  }
+
+  .social-media {
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 400px;
+    right: -100%;
+    width: 100%;
+    justify-content: center;
+    background-color: #0a0a3d;
+    transition: right 0.3s ease-in-out;
+    padding-left: 5px;
+  }
+
+  #check:checked ~ .menu {
+    right: 0;
+  }
+
+  #check:checked ~ .social-media {
+    right: 0;
+  }
+}
