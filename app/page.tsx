@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Slideshow from "../components/Slideshow";
-import Events from "../components/Events";
+import EventsCardView from "../components/EventsCardView";
 import Footer from "../components/Footer";
 export default function Home() {
   const images = [
@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <NavBar />
       <Slideshow images={images} />
-      <Events />
+      <EventsCardView />
       <Footer />
     </>
   );
