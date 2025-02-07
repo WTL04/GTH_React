@@ -24,11 +24,14 @@ export default function EventsCardView() {
       const data = await response.json();
 
       // map the data
-      const eventsData = data.values.map(([date, eventName, description]) => ({
-        date,
-        eventName,
-        description,
-      }));
+      // Explicitly define the type of data.values as an array of arrays of strings
+      const eventsData: Event[] = data.values.map(
+        ([date, eventName, description]: string[]) => ({
+          date,
+          eventName,
+          description,
+        }),
+      );
 
       setEvents(eventsData);
     }
