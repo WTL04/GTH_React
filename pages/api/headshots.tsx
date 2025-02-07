@@ -1,10 +1,11 @@
-import fs from "fs";
+import { NextApiRequest, NextApiResponse } from "next"; // adding type to delpoy on vercel
 import path from "path";
+import fs from "fs";
 
-// API that grabs directory of local image in JSON format
-export default function handler(req, res) {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const headshotDirectory = path.join(process.cwd(), "public/images/headshots");
   const headshotFiles = fs.readdirSync(headshotDirectory);
   const images = headshotFiles.map((file) => `/images/headshots/${file}`);
+
   res.status(200).json(images);
 }
