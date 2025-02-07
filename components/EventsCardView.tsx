@@ -8,7 +8,7 @@ interface Event {
 }
 
 export default function EventsCardView() {
-  const [events, setEvents] = useState([]);
+  const [events, setEvents] = useState<Event[]>([]);
 
   useEffect(() => {
     async function fetchEvents() {
