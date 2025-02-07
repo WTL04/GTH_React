@@ -1,6 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 
+interface Event {
+  date: string;
+  eventName: string;
+  description: string;
+}
+
 export default function EventsCardView() {
   const [events, setEvents] = useState([]);
 
