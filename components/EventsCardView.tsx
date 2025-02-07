@@ -7,10 +7,12 @@ export default function EventsCardView() {
   useEffect(() => {
     async function fetchEvents() {
       // geting data from google sheet through API key
-      const apiKey = "AIzaSyCzc_59NjfvKWV3lmc2Y-qyidduRJE9n3Q";
-      const sheetId = "1q0REcdn6_wIMYuiHjCR_-CPXI7KBxQNj2_A6JqlXH2g";
+      const apiKey = process.env.NEXT_PUBLIC_APIKEY;
+      const sheetId = process.env.NEXT_PUBLIC_SHEETID;
       const range = "Future Events!B2:D"; //referencing future events
       const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
+      console.log(process.env.APIKEY);
+      console.log(process.env.SHEETID);
 
       const response = await fetch(url);
       const data = await response.json();
@@ -31,7 +33,7 @@ export default function EventsCardView() {
   return (
     <div className="bg-gray-100 pt-8">
       <h1 className="flex items-center justify-center font-bold text-5xl ">
-        Upcoming Events
+        Special Events
       </h1>
 
       {/* ADD ANIMATIONS */}
@@ -51,6 +53,7 @@ export default function EventsCardView() {
                     </h1>
                   </div>
                   <div className="p-5">
+                    {/* changing text color depending on text*/}
                     <h5
                       className={`mb-2 text-2xl font-bold tracking-tight ${
                         event.eventName === "NO SINH HOẠT"
