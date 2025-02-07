@@ -1,0 +1,33 @@
+.leader-card-center-wrapper {
+  display: flex;
+}
+
+.leader-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.leader-card img {
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.leader-card h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 20px;
+}
+
+.leader-card p {
+  font-size: 1rem;
+  text-align: center;
+}
