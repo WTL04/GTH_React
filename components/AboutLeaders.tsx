@@ -58,16 +58,19 @@ export default function AboutLeaders() {
         <h1 className="flex item-center justify-center text-5xl font-bold mt-80">
           Meet The Team
         </h1>
-        {leaders.map((leader, index) => (
-          <div key={index}>
-            {/* leader.title, leader.name, leader.role*/}
-            <LeaderCard
-              image={images[index]}
-              rank={leader.role}
-              name={(leader.title, leader.name)}
-            />
-          </div>
-        ))}
+
+        <div className="flex flex-wrap item-center justify-center">
+          {leaders.map((leader, index) => (
+            <div className="flex flex-row" key={index}>
+              {/* leader.title, leader.name, leader.role*/}
+              <LeaderCard
+                image={images[index]}
+                rank={leader.role}
+                name={(leader.title, leader.name)}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
