@@ -26,7 +26,7 @@ export default function EventsCardView() {
       // map the data
       // Explicitly define the type of data.values as an array of arrays of strings
       const eventsData: Event[] = data.values.map(
-        ([date, eventName, description]: string[]) => ({
+        ([date, eventName, description]: [string, string, string]) => ({
           date,
           eventName,
           description,
