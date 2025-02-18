@@ -55,7 +55,7 @@ export default function AboutLeaders() {
   return (
     <>
       <div>
-        <h1 className="flex item-center justify-center text-5xl font-bold mt-80">
+        <h1 className="xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl flex item-center justify-center font-bold mt-40">
           Meet The Team
         </h1>
 

@@ -9,51 +9,69 @@ export default function AboutHero() {
         />
       </div>
 
-      <div className="flex lg:flex-row md:flex-col">
-        <div className="bg-gray-100 lg:w-1/3 md:w-full h-auto flex flex-col items-center justify-center p-10">
-          <h1 className="pt-10 text-black font-bold text-3xl ">Who we are</h1>
-          <p className="text-center p-10">
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwnoi
-            awehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            g
+      <div className="flex xl:flex-row flex-col">
+        <div className="bg-gray-100 w-full h-auto flex flex-col items-center justify-center p-10 ">
+          <h1 className="pt-10 text-black font-bold text-3xl sm:text-2xl xs:text-xl xxs:text-xl">
+            Who we are
+          </h1>
+          <p className="xxs:text-xs xs:text-xs sm:text-sm lg:text-base text-center p-10 break-words">
+            {/* Text content */}
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
           </p>
         </div>
-        <div className="bg-gray-100 lg:w-1/3 md:w-full h-auto flex flex-col items-center justify-center p-10">
-          <h1 className="pt-10 text-black font-bold text-3xl ">Who we are</h1>
-          <p className="text-center p-10">
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwnoi
-            awehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            g
+        <div className="bg-gray-100 w-full h-auto flex flex-col items-center justify-center p-10">
+          <h1 className="pt-10 text-black font-bold text-3xl sm:text-2xl xs:text-xl">
+            Who we are
+          </h1>
+          <p className="xxs:text-xs xs:text-xs sm:text-sm lg:text-base text-center p-10 overflow-hidden">
+            {/* Text content */}
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
           </p>
         </div>
 
-        <div className="bg-gray-100 lg:w-1/3 md:w-full h-auto flex flex-col items-center justify-center p-10">
-          <h1 className="pt-10 text-black font-bold text-3xl ">Who we are</h1>
-          <p className="text-center p-10">
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwnoi
-            awehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            oiawehgiowhgiowgoiwgiuorwoigwroiwriognrwoignwrongoiwnowrngowngorwng
-            g
+        <div className="bg-gray-100 w-full h-auto flex flex-col items-center justify-center p-10">
+          <h1 className="pt-10 text-black font-bold text-3xl sm:text-2xl xs:text-xl">
+            Who we are
+          </h1>
+          <p className="xxs:text-xs xs:text-xs sm:text-sm lg:text-base text-center p-10 overflow-hidden">
+            {/* Text content */}
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
+            woefhoawhfowhfowhfowhfowhofwoifhwofowfiowfoiwhfowhfow
           </p>
         </div>
       </div>

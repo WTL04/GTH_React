@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      screens: {
+        xxs: "300px",
+        xs: "480px", // Custom small breakpoint
+        mdsm: "1025px", // Custom breakpoint for 1025px
+        lgsm: "1200px", // Custom breakpoint for 1200px
+      },
     },
   },
   plugins: [],
