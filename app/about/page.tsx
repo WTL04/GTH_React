@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar";
 import AboutLeaders from "../../components/AboutLeaders";
 import AboutHero from "../../components/AboutHero";
+import AboutUs from "../../components/AboutUs";
 export default function About() {
   return (
     <>
@@ -9,6 +10,9 @@ export default function About() {
       </div>
       <div className="mt-20">
         <AboutHero />
+      </div>
+      <div className="">
+        <AboutUs />
       </div>
       <div className="flex justify-center items-center p-12 flex-wrap">
         <AboutLeaders />
